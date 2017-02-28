@@ -6,10 +6,10 @@
 		<meta name="format-detection" content="telephone=no" />
 		<link rel="icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" />
-		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/booking.css">
-		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/camera.css">
-		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/owl.carousel.css">
-		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/style.css">
+		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/booking.css">
+		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/camera.css">
+		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/owl.carousel.css">
+		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/style.css">
 <!-- 		<script src="js/jquery.js"></script>
 		<script src="js/jquery-migrate-1.2.1.js"></script>
 		<script src="js/script.js"></script>
@@ -64,6 +64,8 @@
 	</head>
 	<body class="page1" id="top">
 <!--==============================header=================================-->
+
+<?php echo bloginfo("template_directory");?>
 		<header>
 			<div class="container_12">
 				<div class="grid_12">
