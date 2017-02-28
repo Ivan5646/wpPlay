@@ -10,16 +10,16 @@
 		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/camera.css">
 		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/owl.carousel.css">
 		<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/style.css">
-<!-- 		<script src="js/jquery.js"></script>
-		<script src="js/jquery-migrate-1.2.1.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/superfish.js"></script>
-		<script src="js/jquery.ui.totop.js"></script>
-		<script src="js/jquery.equalheights.js"></script>
-		<script src="js/jquery.mobilemenu.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/camera.js"></script> -->
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery-migrate-1.2.1.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/script.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/superfish.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery.ui.totop.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery.equalheights.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery.mobilemenu.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/jquery.easing.1.3.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/owl.carousel.js"></script>
+		<script src="<?php bloginfo("template_directory"); ?>/js/camera.js"></script>
 		<!--[if (gt IE 9)|!(IE)]><!-->
 		<script src="js/jquery.mobile.customized.min.js"></script>
 		<!--<![endif]-->
@@ -64,8 +64,6 @@
 	</head>
 	<body class="page1" id="top">
 <!--==============================header=================================-->
-
-<?php echo bloginfo("template_directory");?>
 		<header>
 			<div class="container_12">
 				<div class="grid_12">
@@ -93,7 +91,7 @@
 		</header>
 		<div class="slider_wrapper">
 			<div id="camera_wrap" class="">
-				<div data-src="images/slide.jpg">
+				<div data-src="<?php bloginfo("template_directory"); ?>/images/slide.jpg">
 					<div class="caption fadeIn">
 						<h2>LONDON</h2>
 						<div class="price">
@@ -103,7 +101,7 @@
 						<a href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div data-src="images/slide1.jpg">
+				<div data-src="<?php bloginfo("template_directory"); ?>/images/slide1.jpg">
 					<div class="caption fadeIn">
 						<h2>Maldives</h2>
 						<div class="price">
@@ -113,7 +111,7 @@
 						<a href="#">LEARN MORE</a>
 					</div>
 				</div>
-				<div data-src="images/slide2.jpg">
+				<div data-src="<?php bloginfo("template_directory"); ?>/images/slide2.jpg">
 					<div class="caption fadeIn">
 						<h2>Venice</h2>
 						<div class="price">
@@ -130,7 +128,7 @@
 			<div class="container_12">
 				<div class="grid_4">
 					<div class="banner">
-						<img src="images/ban_img1.jpg" alt="">
+						<img src="<?php bloginfo("template_directory"); ?>/images/ban_img1.jpg" alt="">
 						<div class="label">
 							<div class="title">Barcelona</div>
 							<div class="price">FROM<span>$ 1000</span></div>
@@ -140,7 +138,7 @@
 				</div>
 				<div class="grid_4">
 					<div class="banner">
-						<img src="images/ban_img2.jpg" alt="">
+						<img src="<?php bloginfo("template_directory"); ?>/images/ban_img2.jpg" alt="">
 						<div class="label">
 							<div class="title">GOA</div>
 							<div class="price">FROM<span>$ 1.500</span></div>
@@ -150,7 +148,7 @@
 				</div>
 				<div class="grid_4">
 					<div class="banner">
-						<img src="images/ban_img3.jpg" alt="">
+						<img src="<?php bloginfo("template_directory"); ?>/images/ban_img3.jpg" alt="">
 						<div class="label">
 							<div class="title">PARIS</div>
 							<div class="price">FROM<span>$ 1.600</span></div>
@@ -234,7 +232,7 @@
 				</div>
 				<div class="grid_5 prefix_1">
 					<h3>Welcome</h3>
-					<img src="images/page1_img1.jpg" alt="" class="img_inner fleft">
+					<img src="<?php bloginfo("template_directory"); ?>/images/page1_img1.jpg" alt="" class="img_inner fleft">
 					<div class="extra_wrapper">
 						<p>Lorem ipsum dolor sit ere amet, consectetur ipiscin.</p>
 						In mollis erat mattis neque facilisis, sit ametiol
@@ -245,7 +243,7 @@
 					Proin pharetra luctus diam, a scelerisque eros convallis
 					<h4>Clients’ Quotes</h4>
 					<blockquote class="bq1">
-						<img src="images/page1_img2.jpg" alt="" class="img_inner noresize fleft">
+						<img src="<?php bloginfo("template_directory"); ?>/images/page1_img2.jpg" alt="" class="img_inner noresize fleft">
 						<div class="extra_wrapper">
 							<p>Duis massa elit, auctor non pellentesque vel, aliquet sit amet erat. Nullam eget dignissim nisi, aliquam feugiat nibh. </p>
 							<div class="alright">
