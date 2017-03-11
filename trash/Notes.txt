@@ -1,1 +1,22 @@
-- ¬ставить скрип, который идет в конце тела html
+info for website
+WP Play
+admin
+456654
+Mike515@yandex.ru
+
+- ¬ставить скрип, который идет в конце тела html ?
+			$(function (){
+				$('#bookingForm').bookingForm({
+					ownerEmail: '#'
+				});
+			})
+			$(function() {
+				$('#bookingForm input, #bookingForm textarea').placeholder();
+			});
+
+Scope of work
+- слайдер наладить
+- создать все необходимые страницы (на к-е переходит меню)
+- сдлать отдельными компонентами header, footer
+
+
