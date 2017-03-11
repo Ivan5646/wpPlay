@@ -18,9 +18,9 @@
   <script src="<?php bloginfo("template_directory"); ?>/js/owl.carousel.js"></script>
   <script src="<?php bloginfo("template_directory"); ?>/js/camera.js"></script>
   <!--[if (gt IE 9)|!(IE)]><!-->
-  <script src="js/jquery.mobile.customized.min.js"></script>
+  <script src="<?php bloginfo("template_directory"); ?>/js/jquery.mobile.customized.min.js"></script>
   <!--<![endif]-->
-  <script src="booking/js/booking.js"></script>
+  <!-- <script src="<?php bloginfo("template_directory"); ?>/js/booking/js/booking.js"></script> -->
   <script>
     $(document).ready(function(){
     jQuery('#camera_wrap').camera({
