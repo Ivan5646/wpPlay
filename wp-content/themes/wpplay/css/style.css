@@ -275,14 +275,21 @@ a.btn:hover {
 /*header*/
 
 header {
-	display: block;
-    background: url(../images/slide.jpg) center 0 repeat-x;
+	/*display: block;*/
+    /*background: url(../images/slide.jpg) center 0 repeat-x;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -ms-background-size: 100% auto;
     -o-background-size: 100% auto;
     background-size: 100% auto;
-    padding-bottom: 98px;
+    padding-bottom: 98px;*/
+    background: none;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    right: 0;
+    top: 0;
+    padding-bottom: 0;
 }
 
 .page1 header {
