@@ -274,15 +274,27 @@ a.btn:hover {
 }
 /*header*/
 
+.header-pages{
+    display: block;
+    background: url(../images/slide.jpg) center 0 repeat-x;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    padding-bottom: 62px;
+}
+
 header {
-	/*display: block;*/
-    /*background: url(../images/slide.jpg) center 0 repeat-x;
+/*	display: block;
+    background: url(../images/slide.jpg) center 0 repeat-x;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -ms-background-size: 100% auto;
     -o-background-size: 100% auto;
     background-size: 100% auto;
     padding-bottom: 98px;*/
+    
     background: none;
     position: absolute;
     left: 0;
@@ -465,7 +477,8 @@ header h1 a img {
 
 .banners .banner {
     top: 0;
-    margin-top: 20px;
+    margin-top: 298px;
+    margin-bottom: -298px;
 }
 
 .block2 {
