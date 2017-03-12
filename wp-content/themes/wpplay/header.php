@@ -1,49 +1,25 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package wpPlay
- */
-
-?><!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="profile" href="http://gmpg.org/xfn/11">
-
-<?php wp_head(); ?>
-</head>
-
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wpplay' ); ?></a>
-
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'wpplay' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-	<div id="content" class="site-content">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="menu_block">
+        <nav class="horizontal-nav full-width horizontalNav-notprocessed">
+          <ul class="sf-menu">
+            <li><a href="index.html">ABOUT</a></li>
+            <li class="current"><a href="index-1.html">HOT TOURS</a></li>
+            <li><a href="index-2.html">SPECIAL OFFERS</a></li>
+            <li><a href="index-3.html">BLOG</a></li>
+            <li><a href="index-4.html">CONTACTS</a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="grid_12">
+      <h1>
+        <a href="index.html">
+          <img src="http://wpplay/wp-content/themes/wpplay/images/logo.png" alt="Your Happy Family">
+        </a>
+      </h1>
+    </div>
+  </div>
+</header>
