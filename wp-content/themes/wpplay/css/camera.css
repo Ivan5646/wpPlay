@@ -10,6 +10,7 @@
 .slider_wrapper {
 	position: relative;
 	text-align: left;
+	margin-bottom: -20; /*all p set to padding-bottom:20px*/
 }
 
 
