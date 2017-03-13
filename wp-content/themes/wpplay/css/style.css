@@ -8,6 +8,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+h2.entry-title {
+    font-size: 20px !important;
+}
+
 html {
     width: 100%;
 

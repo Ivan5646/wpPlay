@@ -60,7 +60,7 @@
   <![endif]-->
 </head>
 
-<?php if( !is_page(2) ) get_header(); ?> <!-- if page id is not 2 get_header() -->
+<?php if( !is_page(2) ) get_header(); ?> <!-- if page id is not 2, get_header() -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

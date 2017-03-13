@@ -7,7 +7,7 @@
             <li><a href="http://wpplay">ABOUT</a></li>
             <li class="current"><a href="http://wpplay/hot-tours">HOT TOURS</a></li>
             <li><a href="http://wpplay/special-offers">SPECIAL OFFERS</a></li>
-            <li><a href="index-3.html">BLOG</a></li>
+            <li><a href="http://wpplay/blog">BLOG</a></li>
             <li><a href="http://wpplay/contacts/">CONTACTS</a></li>
           </ul>
         </nav>
