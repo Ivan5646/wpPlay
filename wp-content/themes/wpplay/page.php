@@ -82,3 +82,8 @@
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
+
+<?php
+while ( have_posts() ) : the_post();
+endwhile; // End of the loop.
+?>

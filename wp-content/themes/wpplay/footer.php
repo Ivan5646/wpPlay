@@ -1,5 +1,4 @@
 <footer>
-  hey hey this is footer
   <div class="container_12">
     <div class="grid_12">
       <div class="socials">
