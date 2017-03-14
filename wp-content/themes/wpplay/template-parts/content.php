@@ -1,3 +1,12 @@
+<head>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/booking.css">
+  <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/camera.css">
+  <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/owl.carousel.css">
+	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/style.css">
+</head>
+
 <?php
 /**
  * Template part for displaying posts

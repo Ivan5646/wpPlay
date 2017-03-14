@@ -1,3 +1,7 @@
+<head>
+	<link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/style.css">
+</head>
+
 <?php
 /**
  * The main template file

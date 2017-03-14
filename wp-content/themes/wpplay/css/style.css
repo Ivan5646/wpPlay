@@ -8,6 +8,19 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+.entry-header{
+    background-color: none;
+    background: none;
+}
+
+.entry-footer, .comment-meta{
+    background: none;
+}
+
+.screen-reader-text, .comments-title, .widget-title{
+    font-size: 18px;
+}
+
 h2.entry-title {
     font-size: 20px;
     margin-top: 34px;
