@@ -14,6 +14,11 @@ Mike515@yandex.ru
 				$('#bookingForm input, #bookingForm textarea').placeholder();
 			});
 
+
+with php get header set active class to the menu items
+http://stackoverflow.com/questions/7955872/changing-colors-when-link-is-clicked
+http://stackoverflow.com/questions/15963757/how-to-set-current-page-active-in-php
+
 Scope of work
 - fix aside block in posts
 - fix menu item active highlighted  

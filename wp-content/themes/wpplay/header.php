@@ -5,10 +5,10 @@
         <nav class="horizontal-nav full-width horizontalNav-notprocessed">
           <ul class="sf-menu">
             <li><a href="http://wpplay">ABOUT</a></li>
-            <li><a href="http://wpplay/hot-tours">HOT TOURS</a></li>
-            <li><a href="http://wpplay/special-offers">SPECIAL OFFERS</a></li>
-            <li><a href="http://wpplay/blog">BLOG</a></li>
-            <li><a href="http://wpplay/contacts/">CONTACTS</a></li>
+            <li><a href="http://wpplay/hot-tours" class="<?php echo ($page == 'currenPagename' ? 'active':'');?>">HOT TOURS</a></li>
+            <li><a href="http://wpplay/special-offers" class="<?php echo ($page == 'currenPagename' ? 'active':'');?>">SPECIAL OFFERS</a></li>
+            <li><a href="http://wpplay/blog" class="<?php echo ($page == 'currenPagename' ? 'active':'');?>">BLOG</a></li>
+            <li><a href="http://wpplay/contacts/" class="<?php echo ($page == 'currenPagename' ? 'active':'');?>">CONTACTS</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
