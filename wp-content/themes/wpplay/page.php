@@ -83,6 +83,8 @@
 
 <?php get_footer(); ?>
 
+<script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>
+
 <?php
 while ( have_posts() ) : the_post();
 endwhile; // End of the loop.

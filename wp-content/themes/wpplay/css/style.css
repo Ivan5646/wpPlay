@@ -8,6 +8,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+.active{
+    color: #fff !important;
+}
+
 .entry-header{
     background-color: none;
     background: none;
@@ -19,6 +23,13 @@
 
 .screen-reader-text, .comments-title, .widget-title{
     font-size: 18px;
+}
+
+.widget-area{
+    float: right;
+}
+
+.entry-content{
 }
 
 h2.entry-title {

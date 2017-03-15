@@ -4,8 +4,8 @@
       <div class="menu_block">
         <nav class="horizontal-nav full-width horizontalNav-notprocessed">
           <ul class="sf-menu">
-            <li><a href="http://wpplay">ABOUT</a></li>
-            <li class="current"><a href="http://wpplay/hot-tours">HOT TOURS</a></li>
+            <li><a href="http://wpplay" class="active">ABOUT</a></li>
+            <li><a href="http://wpplay/hot-tours">HOT TOURS</a></li>
             <li><a href="http://wpplay/special-offers">SPECIAL OFFERS</a></li>
             <li><a href="http://wpplay/blog">BLOG</a></li>
             <li><a href="http://wpplay/contacts/">CONTACTS</a></li>
