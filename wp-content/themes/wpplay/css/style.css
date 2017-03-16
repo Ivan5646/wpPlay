@@ -17,8 +17,10 @@
     background: none;
 }
 
-.entry-footer, .comment-meta{
+.entry-footer, .comment-meta, .post-navigation{
     background: none;
+    width: 70%;
+    margin-left: 40px; 
 }
 
 .screen-reader-text, .comments-title, .widget-title{
@@ -30,6 +32,12 @@
     margin-right: 0;
     margin-left: 40px;
     padding: 0;
+}
+
+.entry-header{
+  margin-left: 40px;  
+  padding-bottom: 60px;
+  width: 70%;
 }
 
 .widget-area{
@@ -51,6 +59,11 @@ h2.entry-title {
     font-size: 20px;
     margin-top: 34px;
     margin-bottom: 16px;
+}
+
+.entry-title{
+    margin: 40px 0 40px 0;
+    font-size: 18px;
 }
 
 html {

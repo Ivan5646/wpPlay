@@ -124,6 +124,7 @@ textarea::-moz-placeholder
 }
 /* Messages */
 .error-message {
+  display: none; /* fix blurry problem */
   position: absolute;
   top: 31px;
   white-space: nowrap;
