@@ -19,6 +19,11 @@ with php get header set active class to the menu items
 http://stackoverflow.com/questions/7955872/changing-colors-when-link-is-clicked
 http://stackoverflow.com/questions/15963757/how-to-set-current-page-active-in-php
 
+If it is .html php does not echos?
+http://stackoverflow.com/questions/22853669/how-to-run-a-php-script-inside-a-html-file
+
+plugin insert php = to inseert php in pages: [insert_php] echo "Hey"; [/insert_php]
+
 Scope of work
 - fix aside block in posts
 - fix menu item active highlighted  

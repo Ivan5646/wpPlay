@@ -5,10 +5,10 @@
         <nav class="horizontal-nav full-width horizontalNav-notprocessed">
           <ul class="sf-menu">
             <li><a href="http://wpplay">ABOUT</a></li>
-            <li><a href="http://wpplay/hot-tours" class="<?php echo ($page == 'hot-tours' ? 'active':'');?>">HOT TOURS</a></li>
-            <li><a href="http://wpplay/special-offers" class="<?php echo ($page == 'special-offers' ? 'active':'');?>">SPECIAL OFFERS</a></li>
-            <li><a href="http://wpplay/blog" class="<?php echo ($page == 'blog' ? 'active':'');?>">BLOG</a></li>
-            <li><a href="http://wpplay/contacts/" class="<?php echo ($page == 'contacts' ? 'active':'');?>">CONTACTS</a></li>
+            <li><a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a></li>
+            <li><a href="http://wpplay/special-offers" class="<?php echo ($_SERVER['REQUEST_URI'] == "/special-offers/" ? 'active':'');?>">SPECIAL OFFERS</a></li>
+            <li><a href="http://wpplay/blog" class="<?php echo ($_SERVER['REQUEST_URI'] == "/blog/" ? 'active':'');?>">BLOG</a></li>
+            <li><a href="http://wpplay/contacts/" class="<?php echo ($_SERVER['REQUEST_URI'] == "/contacts/" ? 'active':'');?>">CONTACTS</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
