@@ -25,11 +25,26 @@
     font-size: 18px;
 }
 
-.widget-area{
-    float: right;
+.post_content, .comments-area{
+    width: 70%;
+    margin-right: 0;
+    margin-left: 40px;
+    padding: 0;
 }
 
-.entry-content{
+.widget-area{
+    float: right;
+    width: 25%;
+    overflow: hidden;
+    /*margin-left: 0;*/
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 800px;
+}
+
+.footerHeight{
+    height: 140px;
 }
 
 h2.entry-title {

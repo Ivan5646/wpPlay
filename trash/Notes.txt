@@ -14,7 +14,7 @@ Mike515@yandex.ru
 				$('#bookingForm input, #bookingForm textarea').placeholder();
 			});
 
-
+Questions, problems, notes
 with php get header set active class to the menu items
 http://stackoverflow.com/questions/7955872/changing-colors-when-link-is-clicked
 http://stackoverflow.com/questions/15963757/how-to-set-current-page-active-in-php
@@ -22,17 +22,23 @@ http://stackoverflow.com/questions/15963757/how-to-set-current-page-active-in-ph
 If it is .html php does not echos?
 http://stackoverflow.com/questions/22853669/how-to-run-a-php-script-inside-a-html-file
 
-plugin insert php = to inseert php in pages: [insert_php] echo "Hey"; [/insert_php]
+plugin insert php - to inseert php in pages: [insert_php] echo "Hey"; [/insert_php]
+
+content.php is responsible fpr displaying posts
+
+Where is the <aside> rendered from? sidebar.php
+
 
 Scope of work
 - fix aside block in posts
-- fix menu item active highlighted  
+  commented out for now in sidebar.php
 - обеспечить фунционал?
 - попробовать сделать блог для вкладки Блог
  надо, чтобы посты выводились с картинками
  сделать сайдбар с категориями или с какой-то навигацией?
 
 Done
+- fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
 - создать все необходимые страницы (на к-е переходит меню)
 - сделать отдельными компонентами header, footer

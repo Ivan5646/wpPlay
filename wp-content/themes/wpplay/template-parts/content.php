@@ -35,7 +35,7 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="entry-content post_content">
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
@@ -49,8 +49,10 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php wpplay_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	
+	<div class="footerHeight">
+		<footer class="entry-footer">
+			<?php wpplay_entry_footer(); ?>
+		</footer><!-- .entry-footer -->
+	</div>
 </article><!-- #post-## -->
