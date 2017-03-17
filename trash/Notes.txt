@@ -38,8 +38,10 @@ Warning when seeing posts. Disappeared without doing anything.
 
 Scope of work
 - deploy on hosting
-  set an icon for browser tabs
+  test in FireFox(ok), Opera (ok), Explorer (ok). At the current stage is ok...
 
+- style links to the post on posts pages  
+- fonts
 - error, fix font blurry problem on contacts page. disaplay: none for now
 - fix aside block in posts
   commented out for now in sidebar.php
@@ -50,7 +52,8 @@ Scope of work
 
 Done
 - deploy on hosting
-  
+  set an icon for browser tabs
+
 - fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
 - создать все необходимые страницы (на к-е переходит меню)

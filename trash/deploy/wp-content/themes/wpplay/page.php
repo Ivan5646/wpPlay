@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no" />
-  <link rel="icon" href="http://mikhaildev.000webhostapp.com/wp-content/themes/wpplay/images/favicon.ico">
-  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="icon" href="<?php bloginfo("template_directory"); ?>/images/favicon.ico">
+  <link rel="shortcut icon" href="<?php bloginfo("template_directory"); ?>/images/favicon.ico" />
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/booking.css">
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/camera.css">
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/owl.carousel.css">
