@@ -28,9 +28,19 @@ content.php is responsible fpr displaying posts
 
 Where is the <aside> rendered from? sidebar.php
 
+Deploying
+All the links excepts front page did not work, then the did after some time...?
+http://wordpress.stackexchange.com/questions/14685/after-server-migration-only-the-homepage-works
+
+Warning when seeing posts. Disappeared without doing anything.
+
+
 
 Scope of work
-- error, fix font blurry problem on contacts page
+- deploy on hosting
+  set an icon for browser tabs
+
+- error, fix font blurry problem on contacts page. disaplay: none for now
 - fix aside block in posts
   commented out for now in sidebar.php
 - обеспечить фунционал?
@@ -39,6 +49,8 @@ Scope of work
  сделать сайдбар с категориями или с какой-то навигацией?
 
 Done
+- deploy on hosting
+  
 - fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
 - создать все необходимые страницы (на к-е переходит меню)
