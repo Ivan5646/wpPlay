@@ -40,6 +40,7 @@ Scope of work
 - deploy on hosting
   test in FireFox(ok), Opera (ok), Explorer (ok). At the current stage is ok...
 
+- send form to Email on learn more button
 - style links to the post on posts pages  
 - fonts
 - error, fix font blurry problem on contacts page. disaplay: none for now
