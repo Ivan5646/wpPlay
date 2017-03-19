@@ -34,6 +34,8 @@ http://wordpress.stackexchange.com/questions/14685/after-server-migration-only-t
 
 Warning when seeing posts. Disappeared without doing anything.
 
+Modal close span did not work becasus e of .page 1header z-index.
+
 
 
 Scope of work
