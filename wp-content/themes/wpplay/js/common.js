@@ -56,6 +56,9 @@ $(document).ready(function() {
       $(this).find("input").val("");
       alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
       $(".ajaxForm").trigger("reset");
+      modal.style.display = "none";
+    }).fail(function() {
+      alert( "error" );
     });
     return false;
   });
