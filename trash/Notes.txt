@@ -36,13 +36,17 @@ Warning when seeing posts. Disappeared without doing anything.
 
 Modal close span did not work becasus e of .page 1header z-index.
 
+Форма. Работает без обработчика клика кнопки "отправить".
+
 
 
 Scope of work
 - deploy on hosting
   test in FireFox(ok), Opera (ok), Explorer (ok). At the current stage is ok...
 
-- <br> is inserted in the form, wtf. Placing <label for="">Email</label><input type="text" name="email"> on the same line helped.
+- form
+ mail.php is not found when form submitting. What path will be correct? Just place mail.php in root folder.
+ add error handler to ajax
 - send form to Email on learn more button
 - style links to the post on posts pages  
 - fonts
@@ -58,6 +62,8 @@ Done
 - deploy on hosting
   set an icon for browser tabs
 
+
+- <br> is inserted in the form, wtf. Placing <label for="">Email</label><input type="text" name="email"> on the same line helped.
 - fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
 - создать все необходимые страницы (на к-е переходит меню)
