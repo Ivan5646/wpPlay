@@ -42,6 +42,7 @@ Scope of work
 - deploy on hosting
   test in FireFox(ok), Opera (ok), Explorer (ok). At the current stage is ok...
 
+- <br> is inserted in the form, wtf. Placing <label for="">Email</label><input type="text" name="email"> on the same line helped.
 - send form to Email on learn more button
 - style links to the post on posts pages  
 - fonts
