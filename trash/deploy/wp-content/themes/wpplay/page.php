@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/camera.css">
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/owl.carousel.css">
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/ajax-form.css">
   <script src="<?php bloginfo("template_directory"); ?>/js/jquery.js"></script>
   <script src="<?php bloginfo("template_directory"); ?>/js/jquery-migrate-1.2.1.js"></script>
   <script src="<?php bloginfo("template_directory"); ?>/js/script.js"></script>

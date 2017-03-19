@@ -36,7 +36,9 @@ Warning when seeing posts. Disappeared without doing anything.
 
 Modal close span did not work becasus e of .page 1header z-index.
 
-Форма. Работает без обработчика клика кнопки "отправить".
+Форма. Работает без обработчика клика кнопки "отправить". 
+
+Ajax. С локала Opnenserver заявки не приходили на почту, с хостинга (000webhost) приходят.
 
 
 

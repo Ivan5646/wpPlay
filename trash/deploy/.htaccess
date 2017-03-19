@@ -1,4 +1,8 @@
 
+# HTID:715142: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:715142:
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
