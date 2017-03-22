@@ -74,3 +74,8 @@ Done
 - слайдер наладить (path fixed)
 - поправить картинку в слайдере
 - поправить футер. Удалил entry-footer из template-parts/content-page.php
+
+
+
+
+Starting Adminka 
