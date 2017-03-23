@@ -74,3 +74,21 @@ Done
 - слайдер наладить (path fixed)
 - поправить картинку в слайдере
 - поправить футер. ”далил entry-footer из template-parts/content-page.php
+
+
+
+
+Starting Adminka 
+
+- привести в пор€док template files
+- create templates for all pages
+all pages will include header, footer
+front page template will include
+1) top section with 3 pictures 2) booking form 3) side section divided into upper and lower parts
+hot-tours template - only pictures seciton
+special-offers template 
+1) picture section (maybe divided in three subsection) 2) side section
+contacts template
+1)contatc info section on the left 2) get in touch form on the right
+
+how are these sections will be inserted? can't be like header and footer 
