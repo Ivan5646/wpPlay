@@ -42,13 +42,17 @@
 
 .widget-area{
     float: right;
+    /*float: right;
     width: 25%;
     overflow: hidden;
-    /*margin-left: 0;*/
     padding: 0;
     margin: 0;
     position: relative;
-    bottom: 800px;
+    bottom: 800px;*/
+}
+
+.clearfix{
+    overflow: auto;
 }
 
 .footerHeight{

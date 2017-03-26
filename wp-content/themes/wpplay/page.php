@@ -82,6 +82,7 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+<?php if( is_page(78) ) get_sidebar(); ?>
 <?php get_footer(); ?>
 
 <script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>

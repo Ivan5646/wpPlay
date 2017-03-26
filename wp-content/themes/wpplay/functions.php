@@ -103,6 +103,7 @@ function wpplay_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'wpplay' ),
 		'id'            => 'sidebar-1',
+		'class'					=> 'clearfix',
 		'description'   => esc_html__( 'Add widgets here.', 'wpplay' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',

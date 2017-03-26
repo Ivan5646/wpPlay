@@ -64,7 +64,6 @@ Done
 - deploy on hosting
   set an icon for browser tabs
 
-
 - <br> is inserted in the form, wtf. Placing <label for="">Email</label><input type="text" name="email"> on the same line helped.
 - fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
@@ -97,4 +96,10 @@ not inserted. usgin the tag "more" in admin panel...
 
 
 Starting work on blog (branch blog)
+- display blog posts on a separate statice page without a plugin? Or just so it displays correctly. fix aside block in posts
+- style sidebar
+- footer becomes bigger in height after including sidebar, fix it
+ clearfix did not help. Removal of widget-area class helped though...
+http://stackoverflow.com/questions/19192082/wordpress-register-sidebar-class-does-not-work
+
 
