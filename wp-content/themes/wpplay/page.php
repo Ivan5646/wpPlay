@@ -63,6 +63,8 @@
 
 <?php if( !is_page(2) ) get_header(); ?> <!-- if page id is not 2, get_header() -->
 
+<?php if( is_page(78) ) get_sidebar(); ?>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -82,12 +84,9 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php if( is_page(78) ) get_sidebar(); ?>
+
 <?php get_footer(); ?>
 
 <script src="<?php bloginfo("template_directory"); ?>/js/common.js"></script>
 
-<?php
-while ( have_posts() ) : the_post();
-endwhile; // End of the loop.
-?>
+
