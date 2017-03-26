@@ -64,7 +64,6 @@ Done
 - deploy on hosting
   set an icon for browser tabs
 
-
 - <br> is inserted in the form, wtf. Placing <label for="">Email</label><input type="text" name="email"> on the same line helped.
 - fix menu item active highlighted  (<a href="http://wpplay/hot-tours" class="<?php echo ($_SERVER['REQUEST_URI'] == "/hot-tours/" ? 'active':'');?>">HOT TOURS</a>)
 - поправить отображение хедера на страницах
@@ -78,4 +77,29 @@ Done
 
 
 
-Starting Adminka 
+Starting Adminka (new branch)
+
+- привести в пор€док template files. ќни в пор€дке
+- create templates for all pages. No need.
+all pages will include header, footer
+front page template will include
+1) top section with 3 pictures 2) booking form 3) side section divided into upper and lower parts
+hot-tours template - only pictures seciton
+special-offers template 
+1) picture section (maybe divided in three subsection) 2) side section
+contacts template
+1)contatc info section on the left 2) get in touch form on the right
+
+how are these sections will be inserted? can't be like header and footer 
+not inserted. usgin the tag "more" in admin panel...
+
+
+
+Starting work on blog (branch blog)
+- display blog posts on a separate statice page without a plugin? Or just so it displays correctly. fix aside block in posts
+- style sidebar
+- footer becomes bigger in height after including sidebar, fix it
+ clearfix did not help. Removal of widget-area class helped though...
+http://stackoverflow.com/questions/19192082/wordpress-register-sidebar-class-does-not-work
+
+
