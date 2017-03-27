@@ -1,0 +1,210 @@
+.button{background-color: white;}
+
+@font-face {font-family: "Bebas Neue"; src: url(../fonts/Bebas_Neue.ttf);}
+body{font-family: "Bebas Neue";}
+a, a:hover{text-decoration: none !impotrant;}
+
+/* logo and search */
+#topDiv{padding-bottom: 0;}
+#topDivRow{border: 1px solid red;}
+#topDivInner{height: 82px; padding: 22px 0 0 0;}
+#logo{margin-left: 29%; position: relative; bottom: 6px;}
+.search{border: 1px solid #e1e1e1; height: 31px; font-family: sans-serif; margin-right: 9%; margin-left: 12%; margin-top: 1%;}
+.search:hover, .search2:hover{border: 1px solid #9CF5E9;} /* change color, make this border onlick too*/
+.search-input {
+	border: none; 
+	outline: none; 
+	-webkit-appearance: none; 
+	width: 85%; 
+	height: 29px;
+	font-size: 100%; 
+	/*line-height: 1.625em; */
+	vertical-align: middle;
+}
+.search-button {
+	float: right;
+  margin: 5px 8px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: url("../images/search.png") no-repeat;
+  cursor: pointer;
+  z-index: 10;
+}
+#innerbasketPrice{height: 60px; padding: 4px 0 0 75px; position: relative; bottom: 5px;}
+#basket{float: left; margin-bottom: 8px;}
+#price{font-size: 255%; color: #a1a1a1; padding-left: 10px; position: relative; bottom: 5px;} 
+
+/* navigation */
+#navWrapper{background-color: #4ccfc1; height:36px; /*margin-top: 2.1%;*/}
+#navDiv{height:36px;}
+#navList{margin: 0 0 0 11.6%; font-size: 140%; height:41px; width: 78%;}
+#navList li{float:left; padding-right: 2.3%; padding-left: 2.3%; line-height: 36px;}
+#navList a{color: #fff;}
+#navList a:hover{background-color: transparent; color: #B0F8F0} /* none does not work */
+#navDiv ul li+li:before {content:""; background: #fff; position: absolute; top: 8px; left: 0; height: 55%; width: 2px;}
+.nav>li>a{padding: 0;}
+#hiddenContainer, #hiddenContainerInner{display: none;}
+.main_menu_btn{background-color: transparent; color: #fff; border: none; font-size: 26px; display: none;}
+.search2{display: none;}
+.showNav{display: block;}
+
+/* big slider */
+#bigSLider{background-image: url("../images/bg.png"); height: 446px;}
+#bSRow{/*margin-top: 6%;*/ /*height: 368px;*/}
+#dSRowWrapper{margin-top: 5%;}
+#bigSliderText{color: #fff; font-family: "Open Sans"}
+#innerText{margin-left: 5.5%; margin-right: 37%;}
+.headersText{margin-bottom: 8.5%;}
+.cow{font-size: 430%; font-family: "Bebas Neue"; line-height: 50%;}
+#bSText{font-family: "Open Sans"; font-size: 130%; margin-bottom: 10%}
+#shopNow{color: #fff; font-size: 190%; font-family: "Bebas Neue"; border: 3px solid #fff; border-radius: 7px; padding: 1% 4%; margin-left:2%; width: 33%; text-align: center;}
+#shopNow:hover{text-decoration: none; background-color: #dcd5dc;}
+.carousel-indicators{padding-top: 4%; bottom: -12%;} 
+.carousel-indicators li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+		background-color: #fff;
+}
+.carousel-indicators .active {width: 9px; height: 9px; margin-right: 10px;background-color: #7ad4cd;}
+#leftSpacer{width: 300px; height: 350px;}
+#rightSpacer{width: 300px; height: 350px;}
+
+/* small slider */
+#smallSLider{color: #afafaf; font-size: 120%; /*height: 140px;*/}
+.slider{padding-left: 8%; padding-right: 8%;}
+.owl-item{height: 190px; /*width: 350px !important;*/} /* width is not apllied */
+.borderSmall{border-right: 1px solid #e7e7e7; padding-top: 8%; margin-right: 11px; /*padding-bottom: 18%;*/ height: inherit;}
+.firstItemBorder{margin-right: -18px;}
+.textFloatR{float: right; padding-right: 110px;}
+.textFloatRSpecific{/*padding-right: 70px;*/} /* delete if not needed */
+.owl-prev, .owl-next {position:absolute; top:50%; margin-top:-50px; width:50px; height:50px; text-align:center;}
+.owl-next {right: 50px;}
+.owl-prev{left: 44px;}
+.shopSmallLink{display:inline-block; background-color: #3cc395; color:#fff; width: 85%; border-radius: 3px; text-align: center; padding: 6% 0; margin-top:4%;}
+.shopSmallLink:hover{text-decoration:none; background-color:#ddd; color:#3cc395;}
+.shopSmall{/*background-color: #3cc395; color:#fff; width: 85%; border-radius: 3px; text-align: center; padding: 6% 0; margin-top:23%;*/}
+.imageDiv{width: 150px; height: 100px; display: inline-block; padding-top: 4px;}
+.imageDivShirt{width: 113px; height: 132px; display: inline-block; padding-bottom: 2px;}
+.SSImage{margin-left: 18px; width: 100%; height: auto; display: inline-block;}
+.firstItemWrapper{margin-left: 49px;}
+.firstItemText{padding-right: 56px;}
+.secondItemImg{margin-left: 24px;}
+.secondItemText{padding-right: 81px;}
+.secondItemWrapper{margin-left: 19px;}
+.thirdItemWrapper{margin-left: -8px;}
+/*.flopItems{margin-left: 10%;}
+.turnItems{margin-left: 57%;}*/
+#noBorder{border: none;}
+
+
+
+
+
+/* Featured div */
+#featured{background-image: url("../images/featured_bg.png"); height: 67px; color: #fff; /*margin-top:3.7%;*/}
+#featHeader{padding-left: 16%;} 
+
+/* productList */
+#productList{color: #afafaf;}
+.featStyle{}
+.productText{}
+.price{padding-right: 3%; font-size: 190%;}
+.productBuy{font-size: 160%; background-color: #3cc395; color: #fff; padding: 2% 2.5%; border-radius: 3px;}
+a.productBuy {text-decoration: none; background-color: #3cc395; color:#fff;}
+a.productBuy:hover{text-decoration: none; background-color:#ddd; color:#3cc395; cursor: pointer;} 
+#firstProduct{margin: 4% 0 1.9% 8%;}
+#women_shoes{margin-top: 18%;}
+.productImg{margin-top: 8%;}
+.borders{border: 1px solid #e4e4e4; border-bottom: 5px solid #3cc395; outline: 1px solid #f6f6f6; width: 98%; height: 260px; text-align: center; margin-bottom: 45px;}
+/*.borders:before { /* double bottom border #e4e4e4*/
+    content:""; 
+    display:block; 
+    position:absolute; 
+    left:15px; 
+    bottom:-1px; 
+		width:87.8%; 
+    height:1px;                          
+    background:#e4e4e4;
+}*/
+.borders:after { /* lower double bottom border #f6f6f6*/
+    content:""; 
+    display:block; 
+    position:absolute; 
+    left:15px; 
+    bottom:-2px; 
+		width:87.8%; 
+    height:1px;                          
+    background:#f6f6f6;
+}
+
+/* bottomNav */
+#bottomNav{background-color: #3cc3b5; color:#fff;}
+#innerNavRow{width: 1000px; height:inherit; margin: 0 auto;}
+.navLists{font-family: "Open Sans"; list-style-type: none; float: left; padding-right: 7%;}
+.navLists li:first-child{font-family: "Bebas Neue"; padding-bottom: 5%;}
+.navLists li{padding-bottom: 2%;}
+.saleLink{color: #fff; font-size: 120%;}
+.saleLink:hover{color: #fff;}
+#innerColOne{/*margin-left: 25%;*/}
+#innerColTwo{/*margin-left: 4%*/}
+#innerColThree{/*margin-left: -4%;*/}
+#innerColFour{/*margin-left: -36%;*/}
+
+/* footer */
+#footer{background-color: #2da89b; font-family: "Open Sans"; text-align: center; color: #fff; font-family: "Open Sans"; padding: 0.8% 0; font-size: 120%;}
+
+
+/* style for Firefox only */
+@-moz-document url-prefix(){
+	/* need to inherit or use the same position settings for .right .carousel-control from bootstrap  */
+	.carousel-control.right {
+    right: 0px;
+    left: auto;
+    background-image: linear-gradient(to right, transparent 0px, rgba(0, 0, 0, 0.5) 100%);
+    background-repeat: repeat-x;
+	}
+	.carousel-control {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 15%;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+	}
+}
+
+
+
+ 
+ 
+  /* media queiries */  
+/*@media only screen and (max-width: 1265px){
+	#navDiv ul li+li:before {content:""; background: #fff; position: absolute; bottom: 4px; left: 0; height: 90%; width: 2px;}
+	#navList{width: 100%;}
+	#logo{position: relative; bottom: 15px;}
+}
+
+@media only screen and (max-width: 927px){
+	#navList{margin: 0 0 0 0%;}
+}
+@media only screen and (max-width: 818px){
+	#navList{margin: 0 0 0 0%;}
+}
+ */
+@media only screen and (max-width: 810px){
+	#price{font-size: 255%; color: #a1a1a1; position: relative; bottom: 60px; left: 70px;} /* 32pt */
+}
+ 
+
+ 
+

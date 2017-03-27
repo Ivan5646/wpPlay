@@ -1,0 +1,368 @@
+@media only screen and (max-width: 902px) {
+	body{overflow-x: hidden;} /* what casues the scroll? */
+}
+
+@media only screen and (max-width: 1297px) {
+	#navList{margin: 0 0 0 8%; width: 86%;}
+	#navList li{padding-right: 2.1%; padding-left: 2.1%;}
+}
+@media only screen and (max-width: 1264px) {
+	#navDiv ul li+li:before {position: absolute; top: 8px; left: 0; height: 50%; width: 2px;}
+}
+@media only screen and (max-width: 1253px) {
+	#navList{width: 86%;}
+	#navList li{padding-right: 1.6%; padding-left: 1.6%;}
+}
+@media only screen and (max-width: 1102px) {
+	#navList{margin: 0 0 0 4%; width: 90%;}
+}
+@media only screen and (max-width: 902px) {
+	#navList{width: 100%;}
+}
+@media only screen and (max-width: 885px) {
+	#navList li{padding-right: 1%; padding-left: 1%;}
+}
+@media only screen and (max-width: 756px) {
+	#navList{margin: 0 0 0 2%;}
+}
+@media only screen and (max-width: 715px) {
+	#navList{margin: 0 0 0 0.5%;}
+}
+
+@media only screen and (max-width: 1034px) {
+	#innerbasketPrice{height: 60px; padding: 0 0 0 32px; position: relative; bottom: 5px;}
+	#price{padding-left: 2px; position: relative; bottom: 5px;}
+}
+@media only screen and (max-width: 810px) {
+	#price{margin-left: -64px; padding-left: 0;/* position: relative; bottom: 5px;*/}
+}	
+
+@media only screen and (max-width: 839px) { /* search glass */
+	
+}
+@media only screen and (max-width: 670px) {
+	#innerbasketPrice{right:82px;}
+}
+
+
+/* hide menu, search change */
+@media only screen and (max-width: 723px) { 
+	#hiddenContainer, #hiddenContainerInner{display: block; height: 36px;}
+	.main_menu_btn{display: inline;}
+	#navList, .search{display: none;}
+	.search2{display: inline-block; background-color: #4ccfc1; border: 1px solid #E1E1E1; height: 31px; width: 100%; font-family: sans-serif; margin: 0 0 0 0;}
+	#search2Wrpaper{width: 80%; height: 34px; display: inline; float: right; margin-top: 2px; margin-right: 4%;}
+	.search-input2 {
+	border: none; 
+	outline: none; 
+	-webkit-appearance: none; 
+	width: 85%; 
+	height: 29px;
+	font-size: 100%; 
+	/*line-height: 1.625em; */
+	vertical-align: middle;
+	}
+	.search-button2 {
+	float: right;
+  margin: 5px 8px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: url("../images/search.png") no-repeat;
+  cursor: pointer;
+  z-index: 10;
+	position: relative; right: 10px;
+	background-color: transparent;
+	}
+	.search2 input, .search2 textarea{
+    background-color:#4ccfc1;
+	}
+	#navList{ z-index: 16; position: relative; font-size: 140%; width:400px; height:400px; background-color: #4ccfc1;}
+	#navList li{float: none;}
+	#navDiv ul li+li:before {content: none;}
+}
+@media only screen and (max-width: 349px) {
+	.search-button2{bottom: 30px;}
+}
+
+
+/* Big Slider "Cohide" breaking */
+@media only screen and (max-width: 1170px) {
+	#innerText{margin-left: 18%;}
+}
+@media only screen and (max-width: 1170px) { 
+	#innerText{margin-left: 5.5%; margin-right: 20%;}
+}
+@media only screen and (max-width: 1020px) {
+	#innerText{padding-left: 15%; margin-right: -5%;}
+}
+@media only screen and (max-width: 900px) {
+	#innerText{padding-left: 25%; margin-right: -5%;}
+}
+@media only screen and (max-width: 990px) {
+	#firstProduct{margin: 3% 0 4% 0;}
+}
+
+@media only screen and (max-width: 768px) {
+	.cow{font-size: 42px;}
+	#bSText {font-size: 17px;}
+	#shopNow {font-size: 22px;}
+}
+@media only screen and (max-width: 764px) {
+	#innerText{margin-right: -15%;}
+}
+@media only screen and (max-width: 684px) {
+	#innerText{padding-left: 35%; margin-right: -35%;}
+}
+@media only screen and (max-width: 600px) {
+	#bigSLider{
+		height: 400px;
+	}
+	#t-shirt{
+		width: 200px;
+		height: 238px;
+	}
+	.carousel-indicators{
+		bottom: -30%;
+	}
+	.cow{
+		font-size: 36px;
+	}
+}
+@media only screen and (max-width: 456px) {
+	#t-shirt{
+	width: 180px;
+	height: 214px;
+	}
+	.cow{
+		font-size: 32px;
+	}
+}
+@media only screen and (max-width: 398px) {
+	#t-shirt{width: 140px; height: 166px;}
+	.cow{font-size: 27px;}
+	.carousel-indicators{bottom: -20%;}
+	.innerText{margin-left: 2px;}
+}
+@media only screen and (max-width: 410px) {
+	.imgBottom{width:100%; height: auto;}
+	.borders{width: 107%; height: 282px;}
+	.Pshirt{width:100px; height: 120px;}
+}
+
+
+/* Small Slider */
+@media only screen and (max-width: 1330px) {
+	/*.borderSmall{padding-top: 7%; padding-bottom: 10%;}
+	#featured{margin-top:3.8%;}*/
+}
+@media only screen and (max-width: 900px) {
+	/*.borderSmall{padding-top: 7%; padding-bottom: 3%;}*/
+	/*#featured{margin-top:3.8%;}*/
+}
+@media only screen and (max-width: 1254px) {
+	.textFloatR{padding-right: 45px;}
+	#shoes2_text{padding-right: 66px;}
+}
+@media only screen and (max-width: 1199px) {
+	.textFloatR{padding-right: 35px;}
+}
+
+@media only screen and (max-width: 1216px) {
+	/*.SSImage {margin-left: 0px;}
+	.textFloatR{padding-right: 125px;}*/
+	.slider{padding-left: 4%; padding-right: 4%;}
+	/*.textFloatR{padding-right: 14px;}*/
+}
+@media only screen and (max-width: 1154px) {
+	.slider{padding-left: 0; padding-right: 0;}
+	.firstImg{margin-left: 64px;}
+}
+@media only screen and (max-width: 1065px) {
+	.textFloatR{padding-right: 54px;}
+	.firstImg{margin-left: 35px;}
+}
+@media only screen and (max-width: 960px) {
+	#shoes1_text{padding-right: 18px;}
+}
+@media only screen and (max-width: 938px) {
+	#shoes2_text{padding-right: 50px;}
+}
+@media only screen and (max-width: 900px) { /* starting from 900px two items are displayed*/
+	#shoes2_text{padding-right: 75px;}
+}
+@media only screen and (max-width: 785px) {
+	.textFloatR{padding-right: 82px;}
+}
+@media only screen and (max-width: 698px) {
+	.textFloatR{padding-right: 60px;}
+}
+@media only screen and (max-width: 652px) {
+	.textFloatR{padding-right: 58px;}
+}
+@media only screen and (max-width: 646px) {
+	.imageDiv{width: 145px; height: 95px;}
+	.imageDivShirt{width: 97px; height: 127px;}
+	.textFloatR{padding-right: 74px;}
+	.secondItemText{padding-right: 82px;}
+}
+@media only screen and (max-width: 614px) {
+	.imageDiv{width: 140px; height: 90px;}
+	.imageDivShirt{width: 92px; height: 122px;}
+	.textFloatR{padding-right: 92px;}
+	.secondItemText{padding-right: 60px;}
+}
+@media only screen and (max-width: 560px) {
+	/*#smallSLider{font-size: 100%;}
+	.textFloatR h3{font-size: 142%;}*/
+}
+@media only screen and (max-width: 530px) {
+	.secondItemText{padding-right: 60px;}
+}
+@media only screen and (max-width: 510px) {
+	.secondItemText{padding-right: 43px;}
+}
+@media only screen and (max-width: 496px) {
+	.textFloatR{padding-right: 52px;}
+	.imageDiv, .imageDivShirt{margin-left: 16%;}
+	.secondItemText{padding-right: 126px;}
+}
+@media only screen and (max-width: 442px) {
+	.textFloatR{padding-right: 80px;}
+}
+@media only screen and (max-width: 394px) {
+	.textFloatR{padding-right: 40px;}
+}
+@media only screen and (max-width: 394px) {
+	.textFloatR{padding-right: 10px;}
+	.imageDiv{width: 140px; height: 90px;}
+}
+
+@media only screen and (max-width: 1155px) {
+	.firstItemWrapper{margin-left: 0;}
+	.owl-next {right: 0;}
+	.owl-prev{left: -6px;}
+}
+@media only screen and (max-width: 900px) and (min-width: 511px) {
+	.odd{border-right: 1px solid #e7e7e7 !important;}
+	.even{border: none !important;}
+}
+@media only screen and (max-width: 510px){
+	.borderSmall{border: none;}
+}
+@media only screen and (max-width: 900px) {
+	.SSImage{margin-left: 70px;}
+	.textFloatR {padding-right: 70px;}
+	#shoes1_text, #shoes2_text{padding-right: 35px;}
+}
+@media only screen and (max-width: 759px) {
+	.textFloatR {padding-right: 33px;}
+}
+@media only screen and (max-width: 759px) {
+	#shoes1_text{padding-right: 14px;}
+	#shoes2_text{padding-right: 14px;}
+}
+@media only screen and (max-width: 629px) {
+	#shoes1_text{padding-right: 0;}
+	.SSImage{margin-left: 30px;}
+}
+@media only screen and (max-width: 550px) {
+	.lastImg{margin-left: 12px;}
+}
+@media only screen and (max-width: 510px) { /* one item displayed */
+	.SSImage {margin-left: 105px;}
+	.textFloatR{padding-right: 115px !important;}
+}
+@media only screen and (max-width: 496px){
+	.SSImage {margin-left: 4px;}
+	.textFloatR{padding-right: 50px !important;}
+}
+@media only screen and (max-width: 415px){
+	#t-shirt{margin-top: 48%;}
+}
+@media only screen and (max-width: 376px){
+	.SSImage {margin-left: 0px;}
+	.textFloatR{padding-right: 40px !important;}	
+}
+@media only screen and (max-width: 329px){
+	.SSImage {margin-left: -14px;}
+	.textFloatR{padding-right: 17px !important;}	
+}
+@media only screen and (max-width: 426px){
+	.navLists{margin-left: -14px; padding-right: 2px;}
+}
+@media only screen and (max-width: 356px){
+	.navLists{margin-left: -14px; padding-right: 10px;}
+}
+
+/* bottom nav */
+@media only screen and (max-width: 1000px) {
+	#innerNavRow{width: 426px; height:inherit;}
+}
+
+/* Product List */ 
+@media only screen and (max-width: 1000px) {
+	#innerNavRow{width: 426px; height:inherit;}
+}
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1270px) {
+	.borders:before { /* double bottom border #e4e4e4*/content:none;}
+	.borders:after { /* lower double bottom border #f6f6f6*/content:none;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+	.navLists{margin-left: -23px; padding-right: 0;}
+	.owl-next {right: -20px;}
+	.owl-prev{left: -20px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+@media only screen and (min-width: 723px) { /* won'ts work seemingly because the width is set in percentages */
+	#navList{}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+
+
+

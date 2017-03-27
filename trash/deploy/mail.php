@@ -7,8 +7,8 @@
     $name = $_POST['uname'];  
     $phone = $_POST['phone'];
     $email = $_POST['email'];
-    $subject = "Name:" . $name  . " , Phone:" . $phone;
-    $message = "message";
+    $subject = "Новая заявка с wpPlay";
+    $message = "Имя:" . $name  . " , Телефон:" . $phone . "Почта:" . $email;
 
     $headers = "From:" . $email;
     mail($to,$subject,$message,$headers);
