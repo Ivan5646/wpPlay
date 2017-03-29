@@ -8,6 +8,14 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+.blogContent{
+    margin: 0 40px;
+}
+
+.postsContent{
+    width: 70%;
+}
+
 .active{
     color: #fff !important;
 }
