@@ -2,6 +2,11 @@
   <meta charset="utf-8">
   <meta name="description" content="Flight Tickets Online">
   <meta name="format-detection" content="telephone=no" />
+
+  <meta property="og:title" content="Facebook Open Graph Demo">
+  <meta property="og:image" content="http://example.com/main-image.png">
+  <meta property="og:site_name" content="Example Website">
+  <meta property="og:description" content="Here is a nice description">
   <link rel="icon" href="<?php bloginfo("template_directory"); ?>/images/favicon.ico">
   <link rel="shortcut icon" href="<?php bloginfo("template_directory"); ?>/images/favicon.ico" />
   <link rel="stylesheet" href="<?php bloginfo("template_directory"); ?>/css/booking.css">
@@ -23,35 +28,6 @@
   <script src="<?php bloginfo("template_directory"); ?>/js/jquery.mobile.customized.min.js"></script>
   <!--<![endif]-->
   <!-- <script src="<?php bloginfo("template_directory"); ?>/js/booking/js/booking.js"></script> -->
-
-  <script>
-    $(document).ready(function(){
-    jQuery('#camera_wrap').camera({
-      loader: false,
-      pagination: false ,
-      minHeight: '444',
-      thumbnails: false,
-      height: '48.375%',
-      caption: true,
-      navigation: true,
-      fx: 'mosaic'
-    });
-    /*carousel*/
-    var owl=$("#owl");
-      owl.owlCarousel({
-      items : 2, //10 items above 1000px browser width
-      itemsDesktop : [995,2], //5 items between 1000px and 901px
-      itemsDesktopSmall : [767, 2], // betweem 900px and 601px
-      itemsTablet: [700, 2], //2 items between 600 and 0
-      itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
-      navigation : true,
-      pagination : false
-      });
-    $().UItoTop({ easingType: 'easeOutQuart' });
-    });
-  </script>
-</head>
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
@@ -81,6 +57,34 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/43761934" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+  <script>
+    $(document).ready(function(){
+    jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: false ,
+      minHeight: '444',
+      thumbnails: false,
+      height: '48.375%',
+      caption: true,
+      navigation: true,
+      fx: 'mosaic'
+    });
+    /*carousel*/
+    var owl=$("#owl");
+      owl.owlCarousel({
+      items : 2, //10 items above 1000px browser width
+      itemsDesktop : [995,2], //5 items between 1000px and 901px
+      itemsDesktopSmall : [767, 2], // betweem 900px and 601px
+      itemsTablet: [700, 2], //2 items between 600 and 0
+      itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+      navigation : true,
+      pagination : false
+      });
+    $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+  </script>
+</head>
 
 <?php if( !is_page(2) ) get_header(); ?> <!-- if page id is not 2, get_header() -->
 

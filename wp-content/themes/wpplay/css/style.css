@@ -8,6 +8,10 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+#twit{
+    margin: 0 auto !important;
+}
+
 .blogContent{
     margin: 0 40px;
 }

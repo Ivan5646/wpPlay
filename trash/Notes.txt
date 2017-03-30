@@ -99,6 +99,7 @@ display blog posts on a separate statice page without a plugin? Or just so it di
 
 Scope of work
 - социо кнопки. When fb sharing yande.metrica code displayed wtf?
+twitter btn. Styles are not applied and its selecor does not show up in dev tools
 - подключить яндекс, гугл аналитику с определенными целями. Яндекс-метрика, обрабатывать клик и отсылать в метрику. Вызов формы не раб. 
 - сделать регистрацию пользователей
 - нужен отдельный шаблон для front-page, чтобы загружать camera script только в нем? либо if condition
