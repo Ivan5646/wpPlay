@@ -53,6 +53,8 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/43761934" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
+
+
   <script>
     $(document).ready(function(){
     jQuery('#camera_wrap').camera({
