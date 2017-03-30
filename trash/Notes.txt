@@ -98,7 +98,7 @@ Starting work on blog (branch blog)
 display blog posts on a separate statice page without a plugin? Or just so it displays correctly.
 
 Scope of work
-- социо кнопки
+- социо кнопки. When fb sharing yande.metrica code displayed wtf?
 - подключить яндекс, гугл аналитику с определенными целями. Яндекс-метрика, обрабатывать клик и отсылать в метрику. Вызов формы не раб. 
 - сделать регистрацию пользователей
 - нужен отдельный шаблон для front-page, чтобы загружать camera script только в нем? либо if condition
